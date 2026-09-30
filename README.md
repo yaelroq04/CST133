@@ -1,1 +1,1 @@
-# CST133
+# CST 133 - Digital Logic II
