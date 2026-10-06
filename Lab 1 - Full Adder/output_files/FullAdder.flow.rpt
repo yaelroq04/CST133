@@ -1,5 +1,5 @@
 Flow report for FullAdder
-Wed Sep 30 15:26:17 2026
+Mon Oct  5 18:00:31 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -41,7 +41,7 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------------------------------+
 ; Flow Summary                                                                             ;
 +------------------------------------+-----------------------------------------------------+
-; Flow Status                        ; Successful - Wed Sep 30 15:26:17 2026               ;
+; Flow Status                        ; Successful - Mon Oct  5 18:00:31 2026               ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
 ; Revision Name                      ; FullAdder                                           ;
 ; Top-level Entity Name              ; FullAdder                                           ;
@@ -103,6 +103,7 @@ on the Quartus Prime software download page.
 ; Assembler            ; 00:00:03     ; 1.0                     ; 4834 MB             ; 00:00:02                           ;
 ; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4924 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4681 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4664 MB             ; 00:00:00                           ;
 ; Total                ; 00:00:19     ; --                      ; --                  ; 00:00:32                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
@@ -117,6 +118,7 @@ on the Quartus Prime software download page.
 ; Assembler            ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -128,6 +130,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off FullAdder -c Fu
 quartus_asm --read_settings_files=off --write_settings_files=off FullAdder -c FullAdder
 quartus_sta FullAdder -c FullAdder
 quartus_eda --read_settings_files=off --write_settings_files=off FullAdder -c FullAdder
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off FullAdder -c FullAdder --vector_source="C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/waveform.vwf" --testbench_file="C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/simulation/modelsim/waveform.vwf.vt"
 
 
 

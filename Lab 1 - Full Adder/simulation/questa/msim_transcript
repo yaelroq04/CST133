@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do FullAdder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'C:/altera_standard/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying C:/altera_standard/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 1\ -\ Full\ Adder {C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 18:07:44 on Oct 05,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder" C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 18:07:44 on Oct 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do waveform.wf.do
+# Cannot open macro file: waveform.wf.do
+do waveform.vwf.do
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 18:08:30 on Oct 05,2026
+# vlog -reportprogress 300 -work work waveform.vwf.vt 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module FullAdder_vlg_vec_tst
+# 
+# Top level modules:
+# 	FullAdder_vlg_vec_tst
+# End time: 18:08:30 on Oct 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.FullAdder_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 18:08:31 on Oct 05,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.FullAdder_vlg_vec_tst(fast)
+# Loading work.FullAdder(fast)
+# ** Note: $stop    : waveform.vwf.vt(51)
+#    Time: 1 us  Iteration: 0  Instance: /FullAdder_vlg_vec_tst
+# Break in Module FullAdder_vlg_vec_tst at waveform.vwf.vt line 51
+# Causality operation skipped due to absence of debug database file
+# End time: 18:10:13 on Oct 05,2026, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 1
