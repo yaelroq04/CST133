@@ -1,5 +1,5 @@
 Fitter report for FullAdder
-Wed Sep 30 15:26:09 2026
+Tue Oct  6 09:41:15 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -10,33 +10,34 @@ Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
   2. Fitter Summary
   3. Fitter Settings
   4. Parallel Compilation
-  5. Incremental Compilation Preservation Summary
-  6. Incremental Compilation Partition Settings
-  7. Incremental Compilation Placement Preservation
-  8. Pin-Out File
-  9. Fitter Resource Usage Summary
- 10. Fitter Partition Statistics
- 11. Input Pins
- 12. Output Pins
- 13. Dual Purpose and Dedicated Pins
- 14. I/O Bank Usage
- 15. All Package Pins
- 16. I/O Assignment Warnings
- 17. Fitter Resource Utilization by Entity
- 18. Delay Chain Summary
- 19. Pad To Core Delay Chain Fanout
- 20. Routing Usage Summary
- 21. LAB Logic Elements
- 22. LAB Signals Sourced
- 23. LAB Signals Sourced Out
- 24. LAB Distinct Inputs
- 25. I/O Rules Summary
- 26. I/O Rules Details
- 27. I/O Rules Matrix
- 28. Fitter Device Options
- 29. Operating Settings and Conditions
- 30. Fitter Messages
- 31. Fitter Suppressed Messages
+  5. Ignored Assignments
+  6. Incremental Compilation Preservation Summary
+  7. Incremental Compilation Partition Settings
+  8. Incremental Compilation Placement Preservation
+  9. Pin-Out File
+ 10. Fitter Resource Usage Summary
+ 11. Fitter Partition Statistics
+ 12. Input Pins
+ 13. Output Pins
+ 14. Dual Purpose and Dedicated Pins
+ 15. I/O Bank Usage
+ 16. All Package Pins
+ 17. I/O Assignment Warnings
+ 18. Fitter Resource Utilization by Entity
+ 19. Delay Chain Summary
+ 20. Pad To Core Delay Chain Fanout
+ 21. Routing Usage Summary
+ 22. LAB Logic Elements
+ 23. LAB Signals Sourced
+ 24. LAB Signals Sourced Out
+ 25. LAB Distinct Inputs
+ 26. I/O Rules Summary
+ 27. I/O Rules Details
+ 28. I/O Rules Matrix
+ 29. Fitter Device Options
+ 30. Operating Settings and Conditions
+ 31. Fitter Messages
+ 32. Fitter Suppressed Messages
 
 
 
@@ -63,7 +64,7 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                           ;
 +------------------------------------+-----------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Sep 30 15:26:09 2026               ;
+; Fitter Status                      ; Successful - Tue Oct  6 09:41:15 2026               ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
 ; Revision Name                      ; FullAdder                                           ;
 ; Top-level Entity Name              ; FullAdder                                           ;
@@ -156,6 +157,196 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 
 
++---------------------------------------------------------------------------------------------+
+; Ignored Assignments                                                                         ;
++----------+----------------+--------------+-----------------+---------------+----------------+
+; Name     ; Ignored Entity ; Ignored From ; Ignored To      ; Ignored Value ; Ignored Source ;
++----------+----------------+--------------+-----------------+---------------+----------------+
+; Location ;                ;              ; ADC_CLK_10      ; PIN_N5        ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[0]   ; PIN_AB5       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[10]  ; PIN_AB19      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[11]  ; PIN_AA19      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[12]  ; PIN_Y19       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[13]  ; PIN_AB20      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[14]  ; PIN_AB21      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[15]  ; PIN_AA20      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[1]   ; PIN_AB6       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[2]   ; PIN_AB7       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[3]   ; PIN_AB8       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[4]   ; PIN_AB9       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[5]   ; PIN_Y10       ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[6]   ; PIN_AA11      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[7]   ; PIN_AA12      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[8]   ; PIN_AB17      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_IO[9]   ; PIN_AA17      ; QSF Assignment ;
+; Location ;                ;              ; ARDUINO_RESET_N ; PIN_F16       ; QSF Assignment ;
+; Location ;                ;              ; CLK_I2C_SCL     ; PIN_R3        ; QSF Assignment ;
+; Location ;                ;              ; CLK_I2C_SDA     ; PIN_P3        ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[0]    ; PIN_U17       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[10]   ; PIN_T20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[11]   ; PIN_P20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[12]   ; PIN_R20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[1]    ; PIN_W19       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[2]    ; PIN_V18       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[3]    ; PIN_U18       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[4]    ; PIN_U19       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[5]    ; PIN_T18       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[6]    ; PIN_T19       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[7]    ; PIN_R18       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[8]    ; PIN_P18       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_ADDR[9]    ; PIN_P19       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_BA[0]      ; PIN_T21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_BA[1]      ; PIN_T22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_CAS_N      ; PIN_U21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_CKE        ; PIN_N22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_CLK        ; PIN_L14       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_CS_N       ; PIN_U20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[0]      ; PIN_Y21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[10]     ; PIN_H21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[11]     ; PIN_H22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[12]     ; PIN_G22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[13]     ; PIN_G20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[14]     ; PIN_G19       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[15]     ; PIN_F22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[1]      ; PIN_Y20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[2]      ; PIN_AA22      ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[3]      ; PIN_AA21      ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[4]      ; PIN_Y22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[5]      ; PIN_W22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[6]      ; PIN_W20       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[7]      ; PIN_V21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[8]      ; PIN_P21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_DQ[9]      ; PIN_J22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_LDQM       ; PIN_V22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_RAS_N      ; PIN_U22       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_UDQM       ; PIN_J21       ; QSF Assignment ;
+; Location ;                ;              ; DRAM_WE_N       ; PIN_V20       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[0]         ; PIN_V10       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[10]        ; PIN_W5        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[11]        ; PIN_AA15      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[12]        ; PIN_AA14      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[13]        ; PIN_W13       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[14]        ; PIN_W12       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[15]        ; PIN_AB13      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[16]        ; PIN_AB12      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[17]        ; PIN_Y11       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[18]        ; PIN_AB11      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[19]        ; PIN_W11       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[1]         ; PIN_W10       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[20]        ; PIN_AB10      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[21]        ; PIN_AA10      ; QSF Assignment ;
+; Location ;                ;              ; GPIO[22]        ; PIN_AA9       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[23]        ; PIN_Y8        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[24]        ; PIN_AA8       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[25]        ; PIN_Y7        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[26]        ; PIN_AA7       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[27]        ; PIN_Y6        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[28]        ; PIN_AA6       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[29]        ; PIN_Y5        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[2]         ; PIN_V9        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[30]        ; PIN_AA5       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[31]        ; PIN_Y4        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[32]        ; PIN_AB3       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[33]        ; PIN_Y3        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[34]        ; PIN_AB2       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[35]        ; PIN_AA2       ; QSF Assignment ;
+; Location ;                ;              ; GPIO[3]         ; PIN_W9        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[4]         ; PIN_V8        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[5]         ; PIN_W8        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[6]         ; PIN_V7        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[7]         ; PIN_W7        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[8]         ; PIN_W6        ; QSF Assignment ;
+; Location ;                ;              ; GPIO[9]         ; PIN_V5        ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_CS_N    ; PIN_AB16      ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_INT[1]  ; PIN_Y14       ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_INT[2]  ; PIN_Y13       ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_SCLK    ; PIN_AB15      ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_SDI     ; PIN_V11       ; QSF Assignment ;
+; Location ;                ;              ; GSENSOR_SDO     ; PIN_V12       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[0]         ; PIN_C14       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[1]         ; PIN_E15       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[2]         ; PIN_C15       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[3]         ; PIN_C16       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[4]         ; PIN_E16       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[5]         ; PIN_D17       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[6]         ; PIN_C17       ; QSF Assignment ;
+; Location ;                ;              ; HEX0[7]         ; PIN_D15       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[0]         ; PIN_C18       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[1]         ; PIN_D18       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[2]         ; PIN_E18       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[3]         ; PIN_B16       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[4]         ; PIN_A17       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[5]         ; PIN_A18       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[6]         ; PIN_B17       ; QSF Assignment ;
+; Location ;                ;              ; HEX1[7]         ; PIN_A16       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[0]         ; PIN_B20       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[1]         ; PIN_A20       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[2]         ; PIN_B19       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[3]         ; PIN_A21       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[4]         ; PIN_B21       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[5]         ; PIN_C22       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[6]         ; PIN_B22       ; QSF Assignment ;
+; Location ;                ;              ; HEX2[7]         ; PIN_A19       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[0]         ; PIN_F21       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[1]         ; PIN_E22       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[2]         ; PIN_E21       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[3]         ; PIN_C19       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[4]         ; PIN_C20       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[5]         ; PIN_D19       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[6]         ; PIN_E17       ; QSF Assignment ;
+; Location ;                ;              ; HEX3[7]         ; PIN_D22       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[0]         ; PIN_F18       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[1]         ; PIN_E20       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[2]         ; PIN_E19       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[3]         ; PIN_J18       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[4]         ; PIN_H19       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[5]         ; PIN_F19       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[6]         ; PIN_F20       ; QSF Assignment ;
+; Location ;                ;              ; HEX4[7]         ; PIN_F17       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[0]         ; PIN_J20       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[1]         ; PIN_K20       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[2]         ; PIN_L18       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[3]         ; PIN_N18       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[4]         ; PIN_M20       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[5]         ; PIN_N19       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[6]         ; PIN_N20       ; QSF Assignment ;
+; Location ;                ;              ; HEX5[7]         ; PIN_L19       ; QSF Assignment ;
+; Location ;                ;              ; KEY[0]          ; PIN_B8        ; QSF Assignment ;
+; Location ;                ;              ; KEY[1]          ; PIN_A7        ; QSF Assignment ;
+; Location ;                ;              ; LEDR[2]         ; PIN_A10       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[3]         ; PIN_B10       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[4]         ; PIN_D13       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[5]         ; PIN_C13       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[6]         ; PIN_E14       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[7]         ; PIN_D14       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[8]         ; PIN_A11       ; QSF Assignment ;
+; Location ;                ;              ; LEDR[9]         ; PIN_B11       ; QSF Assignment ;
+; Location ;                ;              ; MAX10_CLK1_50   ; PIN_P11       ; QSF Assignment ;
+; Location ;                ;              ; MAX10_CLK2_50   ; PIN_N14       ; QSF Assignment ;
+; Location ;                ;              ; SW[3]           ; PIN_C12       ; QSF Assignment ;
+; Location ;                ;              ; SW[4]           ; PIN_A12       ; QSF Assignment ;
+; Location ;                ;              ; SW[5]           ; PIN_B12       ; QSF Assignment ;
+; Location ;                ;              ; SW[6]           ; PIN_A13       ; QSF Assignment ;
+; Location ;                ;              ; SW[7]           ; PIN_A14       ; QSF Assignment ;
+; Location ;                ;              ; SW[8]           ; PIN_B14       ; QSF Assignment ;
+; Location ;                ;              ; SW[9]           ; PIN_F15       ; QSF Assignment ;
+; Location ;                ;              ; VGA_B[0]        ; PIN_P1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_B[1]        ; PIN_T1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_B[2]        ; PIN_P4        ; QSF Assignment ;
+; Location ;                ;              ; VGA_B[3]        ; PIN_N2        ; QSF Assignment ;
+; Location ;                ;              ; VGA_G[0]        ; PIN_W1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_G[1]        ; PIN_T2        ; QSF Assignment ;
+; Location ;                ;              ; VGA_G[2]        ; PIN_R2        ; QSF Assignment ;
+; Location ;                ;              ; VGA_G[3]        ; PIN_R1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_HS          ; PIN_N3        ; QSF Assignment ;
+; Location ;                ;              ; VGA_R[0]        ; PIN_AA1       ; QSF Assignment ;
+; Location ;                ;              ; VGA_R[1]        ; PIN_V1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_R[2]        ; PIN_Y2        ; QSF Assignment ;
+; Location ;                ;              ; VGA_R[3]        ; PIN_Y1        ; QSF Assignment ;
+; Location ;                ;              ; VGA_VS          ; PIN_N1        ; QSF Assignment ;
++----------+----------------+--------------+-----------------+---------------+----------------+
+
+
 +-------------------------------------------------------------------------------------------------+
 ; Incremental Compilation Preservation Summary                                                    ;
 +---------------------+-------------------+----------------------------+--------------------------+
@@ -242,7 +433,7 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )         ;
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )         ;
 ; Average interconnect usage (total/H/V)      ; 0.0% / 0.0% / 0.0%    ;
-; Peak interconnect usage (total/H/V)         ; 0.0% / 0.0% / 0.1%    ;
+; Peak interconnect usage (total/H/V)         ; 0.1% / 0.1% / 0.1%    ;
 ; Maximum fan-out                             ; 17                    ;
 ; Highest non-global fan-out                  ; 17                    ;
 ; Total fan-out                               ; 24                    ;
@@ -323,25 +514,25 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 +---------------------------------------------+---------------------+--------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Input Pins                                                                                                                                                                                                                                                                            ;
-+------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
-+------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; A    ; AA2   ; 3        ; 18           ; 0            ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
-; B    ; AA1   ; 3        ; 18           ; 0            ; 28           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
-; Cin  ; Y5    ; 3        ; 18           ; 0            ; 0            ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; 0         ;
-+------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                                                                                                                                                             ;
++-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
+; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
++-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
+; SW[0] ; C10   ; 7        ; 51           ; 54           ; 28           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; SW[1] ; C11   ; 7        ; 51           ; 54           ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; SW[2] ; D12   ; 7        ; 51           ; 54           ; 0            ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
++-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
-+------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
-+------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Cout ; U6    ; 3        ; 16           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; Sum  ; W3    ; 3        ; 18           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-+------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
++---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
+; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
++---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
+; LEDR[0] ; A8    ; 7        ; 46           ; 54           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; LEDR[1] ; A9    ; 7        ; 46           ; 54           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
++---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------+
@@ -368,11 +559,11 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; 1A       ; 0 / 16 ( 0 % )  ; 2.5V          ; --           ;
 ; 1B       ; 4 / 24 ( 17 % ) ; 2.5V          ; --           ;
 ; 2        ; 0 / 36 ( 0 % )  ; 2.5V          ; --           ;
-; 3        ; 5 / 48 ( 10 % ) ; 2.5V          ; --           ;
+; 3        ; 0 / 48 ( 0 % )  ; 2.5V          ; --           ;
 ; 4        ; 0 / 48 ( 0 % )  ; 2.5V          ; --           ;
 ; 5        ; 0 / 40 ( 0 % )  ; 2.5V          ; --           ;
 ; 6        ; 0 / 60 ( 0 % )  ; 2.5V          ; --           ;
-; 7        ; 0 / 52 ( 0 % )  ; 2.5V          ; --           ;
+; 7        ; 5 / 52 ( 10 % ) ; 2.5V          ; --           ;
 ; 8        ; 4 / 36 ( 11 % ) ; 2.5V          ; --           ;
 +----------+-----------------+---------------+--------------+
 
@@ -389,8 +580,8 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; A5       ; 473        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A6       ; 471        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A7       ; 445        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; A8       ; 447        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; A9       ; 449        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; A8       ; 447        ; 7        ; LEDR[0]                                        ; output ; 2.5 V                 ;         ; Column I/O ; Y               ; no       ; Off          ;
+; A9       ; 449        ; 7        ; LEDR[1]                                        ; output ; 2.5 V                 ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; A10      ; 439        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A11      ; 437        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A12      ; 435        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -404,8 +595,8 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; A20      ; 401        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; A21      ; 371        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
 ; A22      ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
-; AA1      ; 133        ; 3        ; B                                              ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
-; AA2      ; 135        ; 3        ; A                                              ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
+; AA1      ; 133        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; AA2      ; 135        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; AA3      ; 153        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; --       ; --           ;
 ; AA4      ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
 ; AA5      ; 157        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -479,8 +670,8 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; C7       ; 467        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; C8       ; 465        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; C9       ; 450        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; C10      ; 442        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; C11      ; 440        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; C10      ; 442        ; 7        ; SW[0]                                          ; input  ; 2.5 V                 ;         ; Column I/O ; Y               ; no       ; Off          ;
+; C11      ; 440        ; 7        ; SW[1]                                          ; input  ; 2.5 V                 ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; C12      ; 436        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; C13      ; 426        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; C14      ; 424        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -503,7 +694,7 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; D9       ; 474        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; D10      ; 476        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; D11      ;            ;          ; GND                                            ; gnd    ;                       ;         ; --         ;                 ; --       ; --           ;
-; D12      ; 438        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
+; D12      ; 438        ; 7        ; SW[2]                                          ; input  ; 2.5 V                 ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; D13      ; 431        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; D14      ; 428        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; D15      ; 404        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -783,7 +974,7 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; U3       ; 93         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
 ; U4       ; 92         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
 ; U5       ; 94         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
-; U6       ; 128        ; 3        ; Cout                                           ; output ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
+; U6       ; 128        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; U7       ; 130        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; U8       ;            ; 3        ; VCCIO3                                         ; power  ;                       ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; U9       ;            ; 3        ; VCCIO3                                         ; power  ;                       ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -824,7 +1015,7 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; V22      ; 291        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
 ; W1       ; 97         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
 ; W2       ; 99         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Row I/O    ;                 ; no       ; On           ;
-; W3       ; 134        ; 3        ; Sum                                            ; output ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
+; W3       ; 134        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; W4       ; 132        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; W5       ; 124        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; W6       ; 126        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -848,7 +1039,7 @@ The pin-out file can be found in C:/Users/yaelr/Documents/CST133/Lab 1 - Full Ad
 ; Y2       ; 131        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y3       ; 149        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y4       ; 151        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
-; Y5       ; 137        ; 3        ; Cin                                            ; input  ; 2.5 V                 ;         ; Column I/O ; N               ; no       ; Off          ;
+; Y5       ; 137        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y6       ; 139        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y7       ; 141        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y8       ; 143        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                ;        ;                       ;         ; Column I/O ;                 ; no       ; On           ;
@@ -875,16 +1066,11 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 ; Pin Name ; Reason                        ;
 +----------+-------------------------------+
-; Sum      ; Incomplete set of assignments ;
-; Cout     ; Incomplete set of assignments ;
-; A        ; Incomplete set of assignments ;
-; B        ; Incomplete set of assignments ;
-; Cin      ; Incomplete set of assignments ;
-; Sum      ; Missing location assignment   ;
-; Cout     ; Missing location assignment   ;
-; A        ; Missing location assignment   ;
-; B        ; Missing location assignment   ;
-; Cin      ; Missing location assignment   ;
+; LEDR[1]  ; Incomplete set of assignments ;
+; LEDR[0]  ; Incomplete set of assignments ;
+; SW[2]    ; Incomplete set of assignments ;
+; SW[0]    ; Incomplete set of assignments ;
+; SW[1]    ; Incomplete set of assignments ;
 +----------+-------------------------------+
 
 
@@ -898,17 +1084,17 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------+
-; Delay Chain Summary                                                                  ;
-+------+----------+---------------+---------------+-----------------------+-----+------+
-; Name ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
-+------+----------+---------------+---------------+-----------------------+-----+------+
-; Sum  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; Cout ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; A    ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
-; B    ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
-; Cin  ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
-+------+----------+---------------+---------------+-----------------------+-----+------+
++-----------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                     ;
++---------+----------+---------------+---------------+-----------------------+-----+------+
+; Name    ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
++---------+----------+---------------+---------------+-----------------------+-----+------+
+; LEDR[1] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; LEDR[0] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; SW[2]   ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; SW[0]   ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
+; SW[1]   ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
++---------+----------+---------------+---------------+-----------------------+-----+------+
 
 
 +---------------------------------------------------+
@@ -916,15 +1102,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------+-------------------+---------+
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
-; A                   ;                   ;         ;
-;      - U2~0         ; 0                 ; 6       ;
+; SW[2]               ;                   ;         ;
 ;      - U6~0         ; 0                 ; 6       ;
-; B                   ;                   ;         ;
 ;      - U2~0         ; 0                 ; 6       ;
+; SW[0]               ;                   ;         ;
 ;      - U6~0         ; 0                 ; 6       ;
-; Cin                 ;                   ;         ;
 ;      - U2~0         ; 0                 ; 6       ;
+; SW[1]               ;                   ;         ;
 ;      - U6~0         ; 0                 ; 6       ;
+;      - U2~0         ; 0                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
@@ -935,8 +1121,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------+
 ; Block interconnects   ; 9 / 148,641 ( < 1 % ) ;
 ; C16 interconnects     ; 0 / 5,382 ( 0 % )     ;
-; C4 interconnects      ; 8 / 106,704 ( < 1 % ) ;
-; Direct links          ; 1 / 148,641 ( < 1 % ) ;
+; C4 interconnects      ; 9 / 106,704 ( < 1 % ) ;
+; Direct links          ; 0 / 148,641 ( 0 % )   ;
 ; Global clocks         ; 0 / 20 ( 0 % )        ;
 ; Local interconnects   ; 0 / 49,760 ( 0 % )    ;
 ; NSLEEPs               ; 0 / 500 ( 0 % )       ;
@@ -1009,10 +1195,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; I/O Rules Statistic              ; Total ;
 +----------------------------------+-------+
 ; Total I/O Rules                  ; 30    ;
-; Number of I/O Rules Passed       ; 9     ;
+; Number of I/O Rules Passed       ; 12    ;
 ; Number of I/O Rules Failed       ; 0     ;
 ; Number of I/O Rules Unchecked    ; 0     ;
-; Number of I/O Rules Inapplicable ; 21    ;
+; Number of I/O Rules Inapplicable ; 18    ;
 +----------------------------------+-------+
 
 
@@ -1021,13 +1207,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------+-----------+-----------------------------------+------------------------------------------------------------------------------------------------------+----------+--------------------------------------------------------------------------+---------------------+-------------------+
 ; Status       ; ID        ; Category                          ; Rule Description                                                                                     ; Severity ; Information                                                              ; Area                ; Extra Information ;
 +--------------+-----------+-----------------------------------+------------------------------------------------------------------------------------------------------+----------+--------------------------------------------------------------------------+---------------------+-------------------+
-; Inapplicable ; IO_000001 ; Capacity Checks                   ; Number of pins in an I/O bank should not exceed the number of locations available.                   ; Critical ; No Location assignments found.                                           ; I/O                 ;                   ;
+; Pass         ; IO_000001 ; Capacity Checks                   ; Number of pins in an I/O bank should not exceed the number of locations available.                   ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
 ; Inapplicable ; IO_000002 ; Capacity Checks                   ; Number of clocks in an I/O bank should not exceed the number of clocks available.                    ; Critical ; No Global Signal assignments found.                                      ; I/O                 ;                   ;
-; Inapplicable ; IO_000003 ; Capacity Checks                   ; Number of pins in a Vrefgroup should not exceed the number of locations available.                   ; Critical ; No Location assignments found.                                           ; I/O                 ;                   ;
+; Pass         ; IO_000003 ; Capacity Checks                   ; Number of pins in a Vrefgroup should not exceed the number of locations available.                   ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
 ; Inapplicable ; IO_000004 ; Voltage Compatibility Checks      ; The I/O bank should support the requested VCCIO.                                                     ; Critical ; No IOBANK_VCCIO assignments found.                                       ; I/O                 ;                   ;
 ; Inapplicable ; IO_000005 ; Voltage Compatibility Checks      ; The I/O bank should not have competing VREF values.                                                  ; Critical ; No VREF I/O Standard assignments found.                                  ; I/O                 ;                   ;
 ; Pass         ; IO_000006 ; Voltage Compatibility Checks      ; The I/O bank should not have competing VCCIO values.                                                 ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
-; Inapplicable ; IO_000007 ; Valid Location Checks             ; Checks for unavailable locations.                                                                    ; Critical ; No Location assignments found.                                           ; I/O                 ;                   ;
+; Pass         ; IO_000007 ; Valid Location Checks             ; Checks for unavailable locations.                                                                    ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
 ; Inapplicable ; IO_000008 ; Valid Location Checks             ; Checks for reserved locations.                                                                       ; Critical ; No reserved LogicLock region found.                                      ; I/O                 ;                   ;
 ; Pass         ; IO_000009 ; I/O Properties Checks for One I/O ; The location should support the requested I/O standard.                                              ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
 ; Pass         ; IO_000010 ; I/O Properties Checks for One I/O ; The location should support the requested I/O direction.                                             ; Critical ; 0 such failures found.                                                   ; I/O                 ;                   ;
@@ -1055,21 +1241,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------+-----------+-----------------------------------+------------------------------------------------------------------------------------------------------+----------+--------------------------------------------------------------------------+---------------------+-------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; I/O Rules Matrix                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
-; Pin/Rules          ; IO_000001    ; IO_000002    ; IO_000003    ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007    ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
-; Total Pass         ; 0            ; 0            ; 0            ; 0            ; 0            ; 5         ; 0            ; 0            ; 5         ; 5         ; 0            ; 2            ; 0            ; 0            ; 3            ; 0            ; 2            ; 3            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 0            ; 5         ; 0            ; 0            ;
-; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 5            ; 5            ; 5            ; 5            ; 5            ; 0         ; 5            ; 5            ; 0         ; 0         ; 5            ; 3            ; 5            ; 5            ; 2            ; 5            ; 3            ; 2            ; 5            ; 5            ; 5            ; 3            ; 5            ; 5            ; 5            ; 5            ; 5            ; 0         ; 5            ; 5            ;
-; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Sum                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; Cout               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; Cin                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; I/O Rules Matrix                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
+; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
+; Total Pass         ; 5         ; 0            ; 5         ; 0            ; 0            ; 5         ; 5         ; 0            ; 5         ; 5         ; 0            ; 2            ; 0            ; 0            ; 3            ; 0            ; 2            ; 3            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 0            ; 5         ; 0            ; 0            ;
+; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
+; Total Inapplicable ; 0         ; 5            ; 0         ; 5            ; 5            ; 0         ; 0         ; 5            ; 0         ; 0         ; 5            ; 3            ; 5            ; 5            ; 2            ; 5            ; 3            ; 2            ; 5            ; 5            ; 5            ; 3            ; 5            ; 5            ; 5            ; 5            ; 5            ; 0         ; 5            ; 5            ;
+; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
+; LEDR[1]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; LEDR[0]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[2]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[0]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[1]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
 +-------------------------------------------------------------------------------------------+
@@ -1137,7 +1323,6 @@ Info (12825): Data[1]/ASDO dual-purpose pin not reserved
 Info (12825): nCSO dual-purpose pin not reserved
 Info (12825): DCLK dual-purpose pin not reserved
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
-Critical Warning (169085): No exact pin location assignment(s) for 5 pins of 5 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'FullAdder.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
@@ -1148,21 +1333,190 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info (176211): Number of I/O pins in group: 5 (unused VREF, 2.5V VCCIO, 3 input, 2 output, 0 bidirectional)
-        Info (176212): I/O standards used: 2.5 V.
-Info (176215): I/O bank details before I/O pin placement
-    Info (176214): Statistics of I/O banks
-        Info (176213): I/O bank number 1A does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  16 pins available
-        Info (176213): I/O bank number 1B does not use VREF pins and has undetermined VCCIO pins. 4 total pin(s) used --  20 pins available
-        Info (176213): I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  36 pins available
-        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  48 pins available
-        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  48 pins available
-        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  40 pins available
-        Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  60 pins available
-        Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  52 pins available
-        Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 4 total pin(s) used --  32 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "ADC_CLK_10" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_IO[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ARDUINO_RESET_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLK_I2C_SCL" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLK_I2C_SDA" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_BA[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_BA[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CAS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CKE" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_LDQM" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_RAS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_UDQM" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_WE_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[16]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[17]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[18]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[19]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[20]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[21]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[22]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[23]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[24]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[25]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[26]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[27]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[28]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[29]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[30]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[31]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[32]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[33]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[34]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[35]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GPIO[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_CS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_INT[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_INT[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_SCLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_SDI" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "GSENSOR_SDO" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX0[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX1[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX2[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX3[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX4[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "HEX5[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "KEY[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "KEY[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "MAX10_CLK1_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "MAX10_CLK2_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_HS" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1171,12 +1525,12 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X11_Y0 to location X21_Y10
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X45_Y44 to location X55_Y54
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.18 seconds.
 Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
@@ -1184,12 +1538,13 @@ Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/output_files/FullAdder.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 6329 megabytes
-    Info: Processing ended: Wed Sep 30 15:26:09 2026
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:09
+Info: Quartus Prime Fitter was successful. 0 errors, 190 warnings
+    Info: Peak virtual memory: 6327 megabytes
+    Info: Processing ended: Tue Oct  6 09:41:15 2026
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:13
 
 
 +----------------------------+
