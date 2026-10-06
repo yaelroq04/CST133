@@ -14,10 +14,10 @@ Z1 dC:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/simulation/questa
 T_opt
 !i145 1
 !i144 0
-!s110 1791248913
-V=MEc>K]Em3c=zRKJh]Z:A3
+!s110 1791308388
+VX5fA1jSkKhP2OPBMcE]ba3
 04 21 4 work FullAdder_vlg_vec_tst fast 0
-=1-44f79f5dbf75-6ac44a0f-200-6e0c
+=1-44f79f5dbf75-6ac53264-2c-6d18
 R0
 !s12f OEM100
 !s12b OEM100
@@ -29,22 +29,22 @@ n@_opt
 OL;O;2025.2;82
 vFullAdder
 2C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
-!s110 1791248864
+!s110 1791308365
 !i10b 1
-!s100 <e0BIl0X<_=I:6YclAUW80
-I?k[lZoZd4Z8Dc@;8]bbDZ3
+!s100 0mD<;<9?8n0>GQOoRSHnl0
+I2gOHCd>_JXLTMRL0B:=a<0
 R1
-w1790807147
+w1791306486
 8C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
 FC:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
 !i122 0
-L0 3 16
+L0 3 17
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 OL;L;2025.2;82
 r1
 !s85 0
 31
-!s108 1791248864.000000
+!s108 1791308364.000000
 !s107 C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v|
 !s90 -reportprogress|300|-work|work|+incdir+C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder|C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v|
 !i113 0
@@ -54,12 +54,12 @@ Z5 tCvgOpt 0 defaultOptions 1085333592
 n@full@adder
 vFullAdder_vlg_vec_tst
 2waveform.vwf.vt
-!s110 1791248910
+!s110 1791308387
 !i10b 1
 !s100 7i5V_X3H;9Z[aDkzWPfD`0
 IL2PM>c?WLOkDFI;^0DYPY0
 R1
-w1791248431
+w1791308343
 8waveform.vwf.vt
 Fwaveform.vwf.vt
 !i122 1
@@ -69,7 +69,7 @@ R3
 r1
 !s85 0
 31
-!s108 1791248910.000000
+!s108 1791308387.000000
 !s107 waveform.vwf.vt|
 !s90 -reportprogress|300|-work|work|waveform.vwf.vt|
 !i113 0
