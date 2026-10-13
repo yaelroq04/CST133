@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Oct 13 09:34:53 2026
+Analysis & Synthesis Status : Successful - Tue Oct 13 14:43:13 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : TwoToOneMultiplexer
-Top-level Entity Name : mux2_1b
+Top-level Entity Name : lab2
 Family : MAX 10
-Total logic elements : 1
-    Total combinational functions : 1
+Total logic elements : 4
+    Total combinational functions : 4
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 4
+Total pins : 13
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
