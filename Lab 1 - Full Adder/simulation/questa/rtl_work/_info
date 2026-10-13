@@ -1,8 +1,6 @@
 m255
 K4
 z2
-!s12c _opt
-Z0 !s99 nomlopt
 !s11f vlog 2025.2 2025.05, May 31 2025
 13
 !s112 1.1
@@ -10,69 +8,53 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dC:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/simulation/questa
-T_opt
-!i145 1
-!i144 0
-!s110 1791308388
-VX5fA1jSkKhP2OPBMcE]ba3
-04 21 4 work FullAdder_vlg_vec_tst fast 0
-=1-44f79f5dbf75-6ac53264-2c-6d18
-R0
-!s12f OEM100
-!s12b OEM100
-!s124 OEM10U2 
-!s135 nogc
-o-quiet -auto_acc_if_foreign -work work -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc +acc
-tCvgOpt 0 defaultOptions 1107585188
-n@_opt
-OL;O;2025.2;82
+Z0 dC:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/simulation/questa
 vFullAdder
 2C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
-!s110 1791308365
+!s110 1791397221
 !i10b 1
-!s100 0mD<;<9?8n0>GQOoRSHnl0
-I2gOHCd>_JXLTMRL0B:=a<0
-R1
-w1791306486
+!s100 C;@C;M8BQdNd=feUf9EX33
+IO`Jalg?BmKk=a@6hc]F^K3
+R0
+w1791308915
 8C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
 FC:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v
 !i122 0
-L0 3 17
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 OL;L;2025.2;82
+L0 3 20
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 OL;L;2025.2;82
 r1
 !s85 0
 31
-!s108 1791308364.000000
+!s108 1791397221.000000
 !s107 C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v|
 !s90 -reportprogress|300|-work|work|+incdir+C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder|C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder/FullAdder.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 !s92 -work work {+incdir+C:/Users/yaelr/Documents/CST133/Lab 1 - Full Adder} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z5 tCvgOpt 0 defaultOptions 1085333592
+Z4 tCvgOpt 0 defaultOptions 1085333592
 n@full@adder
 vFullAdder_vlg_vec_tst
 2waveform.vwf.vt
-!s110 1791308387
+!s110 1791397229
 !i10b 1
 !s100 7i5V_X3H;9Z[aDkzWPfD`0
 IL2PM>c?WLOkDFI;^0DYPY0
-R1
+R0
 w1791308343
 8waveform.vwf.vt
 Fwaveform.vwf.vt
 !i122 1
 L0 30 70
+R1
 R2
-R3
 r1
 !s85 0
 31
-!s108 1791308387.000000
+!s108 1791397229.000000
 !s107 waveform.vwf.vt|
 !s90 -reportprogress|300|-work|work|waveform.vwf.vt|
 !i113 0
+R3
 R4
-R5
 n@full@adder_vlg_vec_tst
