@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TwoToOneMultiplexer
-Tue Oct 13 09:34:53 2026
+Tue Oct 13 14:43:13 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -43,16 +43,16 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 13 09:34:53 2026           ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 13 14:43:13 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; TwoToOneMultiplexer                             ;
-; Top-level Entity Name              ; mux2_1b                                         ;
+; Top-level Entity Name              ; lab2                                            ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 1                                               ;
-;     Total combinational functions  ; 1                                               ;
+; Total logic elements               ; 4                                               ;
+;     Total combinational functions  ; 4                                               ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 4                                               ;
+; Total pins                         ; 13                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 ; Option                                                           ; Setting            ; Default Value       ;
 +------------------------------------------------------------------+--------------------+---------------------+
 ; Device                                                           ; 10M50DAF484C6GES   ;                     ;
-; Top-level entity name                                            ; mux2_1b            ; TwoToOneMultiplexer ;
+; Top-level entity name                                            ; lab2               ; TwoToOneMultiplexer ;
 ; Family name                                                      ; MAX 10             ; Cyclone V           ;
 ; Use smart compilation                                            ; Off                ; Off                 ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                  ;
@@ -170,39 +170,40 @@ on the Quartus Prime software download page.
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                             ; Library ;
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------+---------+
 ; mux2_1b.v                        ; yes             ; User Verilog HDL File  ; C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v ;         ;
+; lab2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v    ;         ;
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimated Total logic elements              ; 1     ;
-;                                             ;       ;
-; Total combinational functions               ; 1     ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 1     ;
-;     -- <=2 input functions                  ; 0     ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 1     ;
-;     -- arithmetic mode                      ; 0     ;
-;                                             ;       ;
-; Total registers                             ; 0     ;
-;     -- Dedicated logic registers            ; 0     ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 4     ;
-;                                             ;       ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; G4~0  ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 8     ;
-; Average fan-out                             ; 0.89  ;
-+---------------------------------------------+-------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 4         ;
+;                                             ;           ;
+; Total combinational functions               ; 4         ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 0         ;
+;     -- 3 input functions                    ; 4         ;
+;     -- <=2 input functions                  ; 0         ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 4         ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 0         ;
+;     -- Dedicated logic registers            ; 0         ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 13        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; sel~input ;
+; Maximum fan-out                             ; 4         ;
+; Total fan-out                               ; 29        ;
+; Average fan-out                             ; 0.97      ;
++---------------------------------------------+-----------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -210,7 +211,11 @@ on the Quartus Prime software download page.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |mux2_1b                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 4    ; 0            ; 0          ; |mux2_1b            ; mux2_1b     ; work         ;
+; |lab2                      ; 4 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 13   ; 0            ; 0          ; |lab2               ; lab2        ; work         ;
+;    |mux2_1b:M0|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2|mux2_1b:M0    ; mux2_1b     ; work         ;
+;    |mux2_1b:M1|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2|mux2_1b:M1    ; mux2_1b     ; work         ;
+;    |mux2_1b:M2|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2|mux2_1b:M2    ; mux2_1b     ; work         ;
+;    |mux2_1b:M3|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2|mux2_1b:M3    ; mux2_1b     ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -235,10 +240,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 4                           ;
-; cycloneiii_lcell_comb ; 1                           ;
-;     normal            ; 1                           ;
-;         3 data inputs ; 1                           ;
+; boundary_port         ; 13                          ;
+; cycloneiii_lcell_comb ; 4                           ;
+;     normal            ; 4                           ;
+;         3 data inputs ; 4                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
 ; Average LUT depth     ; 1.00                        ;
@@ -260,24 +265,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Tue Oct 13 09:34:47 2026
+    Info: Processing started: Tue Oct 13 14:43:07 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TwoToOneMultiplexer -c TwoToOneMultiplexer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_1b.v
     Info (12023): Found entity 1: mux2_1b File: C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v Line: 4
-Info (12127): Elaborating entity "mux2_1b" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file lab2.v
+    Info (12023): Found entity 1: lab2 File: C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v Line: 4
+Info (12127): Elaborating entity "lab2" for the top level hierarchy
+Info (12128): Elaborating entity "mux2_1b" for hierarchy "mux2_1b:M0" File: C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v Line: 11
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 5 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 1 logic cells
+Info (21057): Implemented 17 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 4 output pins
+    Info (21061): Implemented 4 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4807 megabytes
-    Info: Processing ended: Tue Oct 13 09:34:53 2026
+    Info: Processing ended: Tue Oct 13 14:43:13 2026
     Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Total CPU time (on all processors): 00:00:14
 
 

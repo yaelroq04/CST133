@@ -27,41 +27,24 @@
 # 
 # vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Two\ to\ One\ Multiplexer {C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 09:49:34 on Oct 13,2026
+# Start time: 14:58:15 on Oct 13,2026
 # vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer" C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module mux2_1b
 # 
 # Top level modules:
 # 	mux2_1b
-# End time: 09:49:34 on Oct 13,2026, Elapsed time: 0:00:00
+# End time: 14:58:15 on Oct 13,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-do waveform.vwf.do
+# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Two\ to\ One\ Multiplexer {C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 09:50:22 on Oct 13,2026
-# vlog -reportprogress 300 -work work waveform.vwf.vt 
+# Start time: 14:58:15 on Oct 13,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer" C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
-# -- Compiling module mux2_1b_vlg_vec_tst
+# -- Compiling module lab2
 # 
 # Top level modules:
-# 	mux2_1b_vlg_vec_tst
-# End time: 09:50:22 on Oct 13,2026, Elapsed time: 0:00:00
+# 	lab2
+# End time: 14:58:15 on Oct 13,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
-# vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mux2_1b_vlg_vec_tst -voptargs=""+acc"" 
-# Start time: 09:50:23 on Oct 13,2026
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
-# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.mux2_1b_vlg_vec_tst(fast)
-# Loading work.mux2_1b(fast)
-# ** Note: $stop    : waveform.vwf.vt(49)
-#    Time: 1 us  Iteration: 0  Instance: /mux2_1b_vlg_vec_tst
-# Break in Module mux2_1b_vlg_vec_tst at waveform.vwf.vt line 49
-# image file format "bmp" is unknown
-write wave -window .main_pane.wave.interior.cs.body.center -format png waveform.png
-# could not find wave window
-# End time: 09:56:09 on Oct 13,2026, Elapsed time: 0:05:46
-# Errors: 1634, Warnings: 1
+# 
