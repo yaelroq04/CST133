@@ -2,15 +2,13 @@
 // Structural design to connect 4 two to one multiplexers
 
 module lab2(
-		input [3:0] a,
-		input [3:0] b,
-		input sel,
-		output [3:0] x
+		input [9:0] SW,
+		output [3:0] LEDR
 );
 
-		mux2_1b M0(a[0], b[0], sel, x[0]);
-		mux2_1b M1(a[1], b[1], sel, x[1]);
-		mux2_1b M2(a[2], b[2], sel, x[2]);
-		mux2_1b M3(a[3], b[3], sel, x[3]);
+		mux2_1b M0(SW[0], SW[4], SW[8], LEDR[0]);
+		mux2_1b M1(SW[1], SW[5], SW[8], LEDR[1]);
+		mux2_1b M2(SW[2], SW[6], SW[8], LEDR[2]);
+		mux2_1b M3(SW[3], SW[7], SW[8], LEDR[3]);
 		
 endmodule
