@@ -1,5 +1,5 @@
 Flow report for lab2b
-Tue Oct 20 10:20:42 2026
+Tue Oct 20 10:28:37 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 20 10:20:42 2026           ;
+; Flow Status                        ; Successful - Tue Oct 20 10:28:37 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; lab2b                                           ;
 ; Top-level Entity Name              ; halfadder                                       ;
@@ -104,7 +104,8 @@ on the Quartus Prime software download page.
 ; Assembler            ; 00:00:01     ; 1.0                     ; 4829 MB             ; 00:00:02                           ;
 ; Timing Analyzer      ; 00:00:01     ; 1.1                     ; 4915 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4676 MB             ; 00:00:00                           ;
-; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:23                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4659 MB             ; 00:00:00                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,6 +119,7 @@ on the Quartus Prime software download page.
 ; Assembler            ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; YAEL-LAPTOP      ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -129,6 +131,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off lab2b -c lab2b
 quartus_asm --read_settings_files=off --write_settings_files=off lab2b -c lab2b
 quartus_sta lab2b -c lab2b
 quartus_eda --read_settings_files=off --write_settings_files=off lab2b -c lab2b
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab2b -c lab2b --vector_source="C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.vwf" --testbench_file="C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/simulation/modelsim/halfadder.vwf.vt"
 
 
 
