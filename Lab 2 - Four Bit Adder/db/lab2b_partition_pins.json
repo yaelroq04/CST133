@@ -8,7 +8,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Cout",
+					"name" : "Carry",
 					"strict" : false
 				},
 				{
@@ -17,10 +17,6 @@
 				},
 				{
 					"name" : "B",
-					"strict" : false
-				},
-				{
-					"name" : "Cin",
 					"strict" : false
 				}
 			]
