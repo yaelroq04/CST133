@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1792515914
+VXI>ikEg>l:h2c?mQ9NE_70
+04 21 4 work fulladder_vlg_vec_tst fast 0
+=1-44f79f5dbf75-6ad79f48-33d-201c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vfulladder
+2C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v
+!s110 1792515897
+!i10b 1
+!s100 Q1]E83DHi6K0>8hfjkOU@2
+I7556lMX:RNUPOJLSLhnkm1
+R1
+w1792515173
+8C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v
+FC:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v
+!i122 0
+L0 4 17
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2025.2;82
+r1
+!s85 0
+31
+!s108 1792515897.000000
+!s107 C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder|C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -work work {+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0 defaultOptions 1085333592
+vfulladder_vlg_vec_tst
+2fulladder.vwf.vt
+!s110 1792515911
+!i10b 1
+!s100 PZji@7V24YQ797YDZFN3?2
+I3h?7=7E;LK6e1bSK0gOc>0
+R1
+w1792515570
+8fulladder.vwf.vt
+Ffulladder.vwf.vt
+!i122 1
+L0 30 60
+R2
+R3
+r1
+!s85 0
+31
+!s108 1792515911.000000
+!s107 fulladder.vwf.vt|
+!s90 -reportprogress|300|-work|work|fulladder.vwf.vt|
+!i113 0
+R4
+R5
