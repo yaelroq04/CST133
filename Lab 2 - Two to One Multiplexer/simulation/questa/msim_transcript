@@ -27,24 +27,50 @@
 # 
 # vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Two\ to\ One\ Multiplexer {C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 14:58:15 on Oct 13,2026
+# Start time: 14:39:39 on Oct 19,2026
 # vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer" C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module mux2_1b
 # 
 # Top level modules:
 # 	mux2_1b
-# End time: 14:58:15 on Oct 13,2026, Elapsed time: 0:00:00
+# End time: 14:39:39 on Oct 19,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Two\ to\ One\ Multiplexer {C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 14:58:15 on Oct 13,2026
+# Start time: 14:39:39 on Oct 19,2026
 # vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer" C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module lab2
 # 
 # Top level modules:
 # 	lab2
-# End time: 14:58:15 on Oct 13,2026, Elapsed time: 0:00:00
+# End time: 14:39:39 on Oct 19,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+do lab2.vwf.do
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 14:39:57 on Oct 19,2026
+# vlog -reportprogress 300 -work work lab2.vwf.vt 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module lab2_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab2_vlg_vec_tst
+# End time: 14:39:57 on Oct 19,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab2_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 14:39:58 on Oct 19,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.lab2_vlg_vec_tst(fast)
+# Loading work.lab2(fast)
+# Loading work.mux2_1b(fast)
+# ** Note: $stop    : lab2.vwf.vt(49)
+#    Time: 600 ns  Iteration: 0  Instance: /lab2_vlg_vec_tst
+# Break in Module lab2_vlg_vec_tst at lab2.vwf.vt line 49
+# End time: 14:41:04 on Oct 19,2026, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 1

@@ -1,6 +1,8 @@
 m255
 K4
 z2
+!s12c _opt
+Z0 !s99 nomlopt
 !s11f vlog 2025.2 2025.05, May 31 2025
 13
 !s112 1.1
@@ -8,52 +10,91 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/simulation/questa
+Z1 dC:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1792446000
+V6Nm3Q8[72jHzM@]Y_?^;R1
+04 16 4 work lab2_vlg_vec_tst fast 0
+=1-44f79f5dbf75-6ad68e2e-3a6-20b8
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U6 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
 vlab2
 2C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v
-Z1 !s110 1791928695
+Z2 !s110 1792445979
 !i10b 1
 !s100 FAzF>1FaKd_bR5TA3C@b21
 IQhl_6m=Zll9>;o4CmCa_j2
-R0
+R1
 w1791927506
 8C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v
 FC:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v
 !i122 1
 L0 4 13
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 OL;L;2025.2;82
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z4 !s108 1791928695.000000
+Z5 !s108 1792445979.000000
 !s107 C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v|
 !s90 -reportprogress|300|-work|work|+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer|C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/lab2.v|
 !i113 0
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z6 !s92 -work work {+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0 defaultOptions 1085333592
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -work work {+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0 defaultOptions 1085333592
+vlab2_vlg_vec_tst
+2lab2.vwf.vt
+!s110 1792445997
+!i10b 1
+!s100 bEmHk<7X@?83dDVd9i=@N3
+IbS=b;zBQKfXBX:>V`]8U?1
+R1
+w1792445948
+8lab2.vwf.vt
+Flab2.vwf.vt
+!i122 2
+L0 30 81
+R3
+R4
+r1
+!s85 0
+31
+!s108 1792445997.000000
+!s107 lab2.vwf.vt|
+!s90 -reportprogress|300|-work|work|lab2.vwf.vt|
+!i113 0
+R6
+R8
 vmux2_1b
 2C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v
-R1
+R2
 !i10b 1
 !s100 =dn3Z[@7SWG>>26:6`oHJ3
 IH<EbOFKXnh=`K[9iQJmm51
-R0
+R1
 w1791909287
 8C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v
 FC:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v
 !i122 0
 L0 4 16
-R2
 R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v|
 !s90 -reportprogress|300|-work|work|+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer|C:/Users/yaelr/Documents/CST133/Lab 2 - Two to One Multiplexer/mux2_1b.v|
 !i113 0
-R5
 R6
 R7
+R8
