@@ -1,5 +1,5 @@
 Flow report for lab2b
-Tue Oct 27 09:33:15 2026
+Tue Oct 27 10:12:26 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 27 09:33:15 2026           ;
+; Flow Status                        ; Successful - Tue Oct 27 10:12:26 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; lab2b                                           ;
 ; Top-level Entity Name              ; lab2b                                           ;
@@ -67,30 +67,36 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/27/2026 09:32:47 ;
+; Start date & time ; 10/27/2026 10:11:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab2b               ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 75830321332086.179311876726220         ; --            ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; Questa Altera FPGA (Verilog)           ; <None>        ; --          ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id                        ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 75830321332086.179312111712744         ; --            ; --           ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; Questa Altera FPGA (Verilog)           ; <None>        ; --           ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation                    ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; DE10_Lite    ; Top                               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; DE10_generic ; Top                               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --           ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; DE10_Lite    ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; DE10_generic ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --           ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; DE10_Lite    ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; DE10_generic ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --           ; Top                               ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --                                ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -98,12 +104,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4800 MB             ; 00:00:27                           ;
-; Fitter               ; 00:00:07     ; 1.0                     ; 6297 MB             ; 00:00:11                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4800 MB             ; 00:00:28                           ;
+; Fitter               ; 00:00:07     ; 1.0                     ; 6296 MB             ; 00:00:12                           ;
 ; Assembler            ; 00:00:03     ; 1.0                     ; 4829 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 4915 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 4915 MB             ; 00:00:03                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4676 MB             ; 00:00:01                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:44                           ;
+; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:47                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

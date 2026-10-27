@@ -5,5 +5,7 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v}
 vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v}
+vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v}
 
