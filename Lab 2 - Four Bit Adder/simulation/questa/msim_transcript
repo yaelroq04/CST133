@@ -25,40 +25,39 @@
 # Copying C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v}
+# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 10:04:57 on Oct 20,2026
-# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder" C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v 
+# Start time: 10:46:37 on Oct 20,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder" C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
-# -- Compiling module fulladder
+# -- Compiling module halfadder
 # 
 # Top level modules:
-# 	fulladder
-# End time: 10:04:57 on Oct 20,2026, Elapsed time: 0:00:00
+# 	halfadder
+# End time: 10:46:37 on Oct 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-do fulladder.vwf.do
+do halfadder.vwf.do
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 10:05:11 on Oct 20,2026
-# vlog -reportprogress 300 -work work fulladder.vwf.vt 
+# Start time: 10:47:03 on Oct 20,2026
+# vlog -reportprogress 300 -work work halfadder.vwf.vt 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
-# -- Compiling module fulladder_vlg_vec_tst
+# -- Compiling module halfadder_vlg_vec_tst
 # 
 # Top level modules:
-# 	fulladder_vlg_vec_tst
-# End time: 10:05:11 on Oct 20,2026, Elapsed time: 0:00:00
+# 	halfadder_vlg_vec_tst
+# End time: 10:47:03 on Oct 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
 # vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.fulladder_vlg_vec_tst -voptargs=""+acc"" 
-# Start time: 10:05:12 on Oct 20,2026
+# Start time: 10:47:03 on Oct 20,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.fulladder_vlg_vec_tst(fast)
-# Loading work.fulladder(fast)
-# ** Note: $stop    : fulladder.vwf.vt(51)
-#    Time: 1 us  Iteration: 0  Instance: /fulladder_vlg_vec_tst
-# Break in Module fulladder_vlg_vec_tst at fulladder.vwf.vt line 51
-# End time: 10:06:25 on Oct 20,2026, Elapsed time: 0:01:13
-# Errors: 0, Warnings: 1
+# ** Error: (vopt-11) Could not find work.fulladder_vlg_vec_tst.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./halfadder.vwf.do PAUSED at line 2
