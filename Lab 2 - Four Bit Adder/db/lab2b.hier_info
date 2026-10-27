@@ -1,9 +1,67 @@
-|halfadder
+|lab2b
+A[3] => A[3].IN1
+A[2] => A[2].IN1
+A[1] => A[1].IN1
+A[0] => A[0].IN1
+B[3] => B[3].IN1
+B[2] => B[2].IN1
+B[1] => B[1].IN1
+B[0] => B[0].IN1
+sum[3] <= fulladder:FA3.port3
+sum[2] <= fulladder:FA2.port3
+sum[1] <= fulladder:FA1.port3
+sum[0] <= halfadder:HA0.port2
+cout <= fulladder:FA3.port4
+
+
+|lab2b|halfadder:HA0
 A => X.IN0
 A => Y.IN0
 B => X.IN1
 B => Y.IN1
 Sum <= X.DB_MAX_OUTPUT_PORT_TYPE
 Carry <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2b|fulladder:FA1
+A => U1.IN0
+A => U3.IN0
+A => U5.IN0
+B => U1.IN1
+B => U3.IN1
+B => U4.IN0
+Cin => U2.IN1
+Cin => U4.IN1
+Cin => U5.IN1
+Sum <= U2.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= U6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2b|fulladder:FA2
+A => U1.IN0
+A => U3.IN0
+A => U5.IN0
+B => U1.IN1
+B => U3.IN1
+B => U4.IN0
+Cin => U2.IN1
+Cin => U4.IN1
+Cin => U5.IN1
+Sum <= U2.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= U6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2b|fulladder:FA3
+A => U1.IN0
+A => U3.IN0
+A => U5.IN0
+B => U1.IN1
+B => U3.IN1
+B => U4.IN0
+Cin => U2.IN1
+Cin => U4.IN1
+Cin => U5.IN1
+Sum <= U2.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= U6.DB_MAX_OUTPUT_PORT_TYPE
 
 

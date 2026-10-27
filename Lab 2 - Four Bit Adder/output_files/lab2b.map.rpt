@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab2b
-Tue Oct 20 10:20:32 2026
+Tue Oct 27 09:32:58 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -43,16 +43,16 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 20 10:20:32 2026           ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 27 09:32:58 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; lab2b                                           ;
-; Top-level Entity Name              ; halfadder                                       ;
+; Top-level Entity Name              ; lab2b                                           ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 2                                               ;
-;     Total combinational functions  ; 2                                               ;
+; Total logic elements               ; 7                                               ;
+;     Total combinational functions  ; 7                                               ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 4                                               ;
+; Total pins                         ; 13                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M50DAF484C6GES   ;                    ;
-; Top-level entity name                                            ; halfadder          ; lab2b              ;
+; Top-level entity name                                            ; lab2b              ; lab2b              ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -169,49 +169,55 @@ on the Quartus Prime software download page.
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                       ; Library ;
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
+; fulladder.v                      ; yes             ; User Verilog HDL File  ; C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v ;         ;
 ; halfadder.v                      ; yes             ; User Verilog HDL File  ; C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v ;         ;
+; lab2b.v                          ; yes             ; User Verilog HDL File  ; C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v     ;         ;
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary           ;
-+---------------------------------------------+---------+
-; Resource                                    ; Usage   ;
-+---------------------------------------------+---------+
-; Estimated Total logic elements              ; 2       ;
-;                                             ;         ;
-; Total combinational functions               ; 2       ;
-; Logic element usage by number of LUT inputs ;         ;
-;     -- 4 input functions                    ; 0       ;
-;     -- 3 input functions                    ; 0       ;
-;     -- <=2 input functions                  ; 2       ;
-;                                             ;         ;
-; Logic elements by mode                      ;         ;
-;     -- normal mode                          ; 2       ;
-;     -- arithmetic mode                      ; 0       ;
-;                                             ;         ;
-; Total registers                             ; 0       ;
-;     -- Dedicated logic registers            ; 0       ;
-;     -- I/O registers                        ; 0       ;
-;                                             ;         ;
-; I/O pins                                    ; 4       ;
-;                                             ;         ;
-; Embedded Multiplier 9-bit elements          ; 0       ;
-;                                             ;         ;
-; Maximum fan-out node                        ; A~input ;
-; Maximum fan-out                             ; 2       ;
-; Total fan-out                               ; 10      ;
-; Average fan-out                             ; 1.00    ;
-+---------------------------------------------+---------+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimated Total logic elements              ; 7          ;
+;                                             ;            ;
+; Total combinational functions               ; 7          ;
+; Logic element usage by number of LUT inputs ;            ;
+;     -- 4 input functions                    ; 2          ;
+;     -- 3 input functions                    ; 4          ;
+;     -- <=2 input functions                  ; 1          ;
+;                                             ;            ;
+; Logic elements by mode                      ;            ;
+;     -- normal mode                          ; 7          ;
+;     -- arithmetic mode                      ; 0          ;
+;                                             ;            ;
+; Total registers                             ; 0          ;
+;     -- Dedicated logic registers            ; 0          ;
+;     -- I/O registers                        ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 13         ;
+;                                             ;            ;
+; Embedded Multiplier 9-bit elements          ; 0          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; B[0]~input ;
+; Maximum fan-out                             ; 3          ;
+; Total fan-out                               ; 40         ;
+; Average fan-out                             ; 1.21       ;
++---------------------------------------------+------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |halfadder                 ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 4    ; 0            ; 0          ; |halfadder          ; halfadder   ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                 ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name  ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------+-------------+--------------+
+; |lab2b                     ; 7 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 13   ; 0            ; 0          ; |lab2b               ; lab2b       ; work         ;
+;    |fulladder:FA1|         ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2b|fulladder:FA1 ; fulladder   ; work         ;
+;    |fulladder:FA2|         ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2b|fulladder:FA2 ; fulladder   ; work         ;
+;    |fulladder:FA3|         ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2b|fulladder:FA3 ; fulladder   ; work         ;
+;    |halfadder:HA0|         ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab2b|halfadder:HA0 ; halfadder   ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -235,13 +241,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 4                           ;
-; cycloneiii_lcell_comb ; 2                           ;
-;     normal            ; 2                           ;
-;         2 data inputs ; 2                           ;
+; boundary_port         ; 13                          ;
+; cycloneiii_lcell_comb ; 7                           ;
+;     normal            ; 7                           ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 4                           ;
+;         4 data inputs ; 2                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
+; Max LUT depth         ; 3.00                        ;
+; Average LUT depth     ; 2.27                        ;
 +-----------------------+-----------------------------+
 
 
@@ -260,7 +268,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Tue Oct 20 10:20:26 2026
+    Info: Processing started: Tue Oct 27 09:32:47 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2b -c lab2b
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -268,18 +276,22 @@ Info (12021): Found 1 design units, including 1 entities, in source file fulladd
     Info (12023): Found entity 1: fulladder File: C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file halfadder.v
     Info (12023): Found entity 1: halfadder File: C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v Line: 4
-Info (12127): Elaborating entity "halfadder" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file lab2b.v
+    Info (12023): Found entity 1: lab2b File: C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v Line: 4
+Info (12127): Elaborating entity "lab2b" for the top level hierarchy
+Info (12128): Elaborating entity "halfadder" for hierarchy "halfadder:HA0" File: C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v Line: 12
+Info (12128): Elaborating entity "fulladder" for hierarchy "fulladder:FA1" File: C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v Line: 13
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 2 logic cells
+Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
+    Info (21059): Implemented 5 output pins
+    Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4800 megabytes
-    Info: Processing ended: Tue Oct 20 10:20:32 2026
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Processing ended: Tue Oct 27 09:32:58 2026
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:27
 
 
