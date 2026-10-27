@@ -25,39 +25,64 @@
 # Copying C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:49:31 on Oct 27,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder" C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/fulladder.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	fulladder
+# End time: 09:49:31 on Oct 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 10:46:37 on Oct 20,2026
+# Start time: 09:49:31 on Oct 27,2026
 # vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder" C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/halfadder.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module halfadder
 # 
 # Top level modules:
 # 	halfadder
-# End time: 10:46:37 on Oct 20,2026, Elapsed time: 0:00:00
+# End time: 09:49:31 on Oct 27,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-do halfadder.vwf.do
+# vlog  -work work +incdir+C:/Users/yaelr/Documents/CST133/Lab\ 2\ -\ Four\ Bit\ Adder {C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 10:47:03 on Oct 20,2026
-# vlog -reportprogress 300 -work work halfadder.vwf.vt 
+# Start time: 09:49:31 on Oct 27,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder" C:/Users/yaelr/Documents/CST133/Lab 2 - Four Bit Adder/lab2b.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
-# -- Compiling module halfadder_vlg_vec_tst
+# -- Compiling module lab2b
 # 
 # Top level modules:
-# 	halfadder_vlg_vec_tst
-# End time: 10:47:03 on Oct 20,2026, Elapsed time: 0:00:00
+# 	lab2b
+# End time: 09:49:31 on Oct 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do lab2b.vwf.do
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:49:50 on Oct 27,2026
+# vlog -reportprogress 300 -work work lab2b.vwf.vt 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module lab2b_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab2b_vlg_vec_tst
+# End time: 09:49:50 on Oct 27,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
-# vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.fulladder_vlg_vec_tst -voptargs=""+acc"" 
-# Start time: 10:47:03 on Oct 20,2026
+# vsim -voptargs="+acc" -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab2b_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 09:49:51 on Oct 27,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
-# ** Error: (vopt-11) Could not find work.fulladder_vlg_vec_tst.
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./halfadder.vwf.do PAUSED at line 2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.lab2b_vlg_vec_tst(fast)
+# Loading work.lab2b(fast)
+# Loading work.halfadder(fast)
+# Loading work.fulladder(fast)
+# ** Note: $stop    : lab2b.vwf.vt(49)
+#    Time: 800 ns  Iteration: 0  Instance: /lab2b_vlg_vec_tst
+# Break in Module lab2b_vlg_vec_tst at lab2b.vwf.vt line 49
+# End time: 09:51:16 on Oct 27,2026, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 1
